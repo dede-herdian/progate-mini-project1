@@ -1,7 +1,7 @@
 function onSignIn(googleUser) {
     var profile = googleUser.getBasicProfile();
-    console.log(`Full Name: ` + profile.getName());
-    console.log(`Email: ` + profile.getEmail());
+    console.log('Full Name: ' + profile.getName());
+    console.log("Email: " + profile.getEmail());
 
     var x = document.getElementsByClassName("logged");
     var i;
