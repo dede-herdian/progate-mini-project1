@@ -22,8 +22,7 @@ body {
     margin: 50px auto;
 }
 
-.wrapper .header .top,
-.wrapper .signup {
+.wrapper .header .top,.wrapper .signup {
     background: #fff;
     border: 1px solid #e6e6e6;
     border-radius: 1px;
@@ -145,6 +144,10 @@ body {
 .footer .links ul li a {
     color: #003569;
     font-size: 12px;
+}
+
+.footer .copyright {
+    color: #999;
 }
 
 .logged {
